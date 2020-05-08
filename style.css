@@ -1,0 +1,40 @@
+.bdr{
+    /* height: 20px; */
+    background-color: blue;
+
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color:blue;         
+}
+
+#container .image-container {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#container .image-container img {
+    max-width: 160px;
+    max-height: 70px;        
+}
+#container .bdr.p{
+    color: white;
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+    height: 40px;
+}
+
+
+.col {
+    height: 40px;
+    display: table-cell;
+}
+.menubar2{
+    display: none;
+}
